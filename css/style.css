@@ -38,10 +38,48 @@ main {
     border-radius: 20px;
 }
 
-.socialbuttons {
-    background-color: #99C0D4;
+.name {
+    background-color: #3E2820;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
 }
 
-.copyrights {
-    background-color: #4B95BA;
+.headline {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.section {
+    margin-left: 11%;
+}
+
+.card-img-top:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #3E2820;
+    color: white;
+    text-align: center;
+    height: 5vh;
+    padding-top: 10px;
+}
+
+
+/* On small screens the img are not displayed */
+
+@media only screen and (max-width: 700px) {
+    .card-img-top {
+        display: none;
+    }
+    .row-cols-xs-1 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
 }
